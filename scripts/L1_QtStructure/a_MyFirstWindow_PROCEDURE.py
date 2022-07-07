@@ -6,7 +6,7 @@ from PySide2 import QtWidgets  # Импорт класса, который со�
 if __name__ == '__main__':
 
     app = QtWidgets.QApplication()  # Создаем  объект приложения
-    # app = QtWidgets.QApplication(sys.argv)  # Если PyQt
+    # app = QtWidgets.QApplication(sys.argv)  # Если PyQt1
 
     myWindow = QtWidgets.QWidget()  # Создаём объект окна
     myWindow.setWindowTitle("Моя первая программа на PySide")
